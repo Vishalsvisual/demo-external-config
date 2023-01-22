@@ -1,0 +1,6 @@
+server:
+  port: 8888
+
+# enable all actuator endpoints for testing (review this for real deployments)
+#management.endpoints.web:
+#  include: '*'
