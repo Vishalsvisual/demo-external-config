@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: config-client-test
+  config:
+    import: configserver:http://localhost:8888
+#  cloud:
+#    config:
+#      label: master # optional
+#      uri: http://localhost:8888 # optional
+
